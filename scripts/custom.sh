@@ -21,10 +21,10 @@ chown -R "${DEFAULT_USER}:${DEFAULT_USER}" "/home/${DEFAULT_USER}/project-dir"
 # build
 
 GIT_HUB_USERNAME=ijapesigan
-GIT_HUB_REPO=docker-mids
+GIT_HUB_REPO=docker-milds
 GIT_HUB_BRANCH=main
 DOCKER_HUB_USERNAME=ijapesigan
-DOCKER_HUB_CONTAINER=mids
+DOCKER_HUB_CONTAINER=milds
 
 ## container
 TEMP_VAR=$(git ls-remote "https://github.com/$GIT_HUB_USERNAME/$GIT_HUB_REPO".git "$GIT_HUB_BRANCH")
